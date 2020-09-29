@@ -59,7 +59,7 @@ Because of a decision in the 90's to keep compatibility with Microsoft'sJava (th
 frozen at JDK 1.0 ater a lawsuit), the bytecode design for inner classes in JDK 1.1 didn't 
 change. Thus we see a lot of $1, $2 suffixed classes that are ugly to look at if you were 
 looking at the generated class files, and also come with a file size impediment versus 
-other choices Sun could have made for this feature back then.
+other choices Sun could have made for the same feature back then.
 
 ### Views are not overridable in this demo
 
@@ -144,16 +144,17 @@ tests: 93%. 10.5 seconds for all tests.  Here's a YouTube video of that:
 
 # Marathon
 
-Marathon came out of a project that ThoughtWorks did a large electrical good retailer in the 
-UK in 2004/5. There were a lot of developers involved and it was for a six months (from start 
-to go-live) mission. It was a Java solution (backend and frontend) for point-of-sale equipment. 
-WinRunner was the state of the art and we knew it 
+Marathon came out of a project that ThoughtWorks did for "Dixons" (a large electrical good retailer in the 
+UK) in 2003/4. The same prooject provided some notes for Jez Humble and Dave Farley's "Continuous Delivery" book. 
+There were a lot of developers involved and it was six months from first code to  
+go-live. It was a Java solution (backend and frontend) for point-of-sale equipment. 
+WinRunner was the state of the art in the industry for UI automation and we knew it 
 [wasn't that usable in a XP/DevOps way of working](https://paulhammant.com/blog/000245.html).
 
 [Charles Lowel](https://twitter.com/cowboyd) and 
 [Jeremy Lightsmith](https://twitter.com/lightsmith) 
-put "MarathonMan" together and released it as open source. ThoughtWorks didn't sunstantially 
-fund it like they did for Selenium soon after, and in the end others took of the project in 
+put "MarathonMan" together and released it as open source. ThoughtWorks didn't substantially 
+fund it like they did for Selenium soon after. In the end, others took care of the project in 
 opensource-land: Karra "KD" Dakshinamurthy and colleagues at Jalian Systems Pvt. Ltd (India). 
 There's a full circle aspect now, because Jalian recently made Marathon Selenium2+ compatible.
 See their portal [marathontesting.com/](https://marathontesting.com/) for more info.
